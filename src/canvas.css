@@ -1,0 +1,6 @@
+/* Keep the page's viewport-sized layout authoritative over the runtime's
+   fallback inline pixel pin. The engine still owns backing-store size and fit. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
